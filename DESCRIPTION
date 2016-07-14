@@ -1,0 +1,15 @@
+Package: RscalapackSVD
+Title: Interface to ScaLAPACK SVD
+Version: 0.0.0.9000
+Authors@R: person("Darren", "Fernandes", email = "fernadj2@gmail.com", role = c("aut", "cre"))
+Description: A package that handles the gory details of block-cyclic
+    distribution. It distributes input data into files readable by a ScaLAPACK
+    SVD program, initializes scripts and calls to ScaLAPACK SVD (which are easy
+    to modify based on the cluster and queuing system you are running on), and
+    reconstructs the output data from ScaLAPACK SVD for general use.
+Depends:
+    R (>= 3.3.1)
+License: BSD
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
